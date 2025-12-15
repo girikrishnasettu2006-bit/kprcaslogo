@@ -1,51 +1,40 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Login Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f2f2f2;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+    <title>Login</title>
+</head>
+<body>
 
-        .login-box {
-            background: #ffffff;
-            padding: 30px;
-            width: 320px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
+    <!-- Logo -->
+    <center>
+        <img src="https://kprcas.ac.in/file/wp-content/uploads/2022/01/Logo.png"
+             alt="College Logo"
+             width="200">
+    </center>
 
-        .login-box img {
-            width: 180px;
-            margin-bottom: 20px;
-        }
+    <br><br>
 
-        .login-box h2 {
-            margin-bottom: 20px;
-            color: #333;
-        }
+    <!-- Login Form -->
+    <form action="#" method="post">
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="username" required></td>
+            </tr>
 
-        .login-box input {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            font-size: 14px;
-        }
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
 
-        .login-box button {
-            width: 100%;
-            padding: 10px;
-            background-color: #0066cc;
-            color: white;
-            border: none;
-            border-radius: 5px
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Login">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
